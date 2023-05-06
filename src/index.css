@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer utilities {
+  .scrollbar::-webkit-scrollbar-thin{
+    width: 10px;
+    height: 10px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #ffffff;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 100vh;
+    border: 3px solid #f6f7ed;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+} */
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../font/OpenSans/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "OpenSans-bold";
+  src: url("../font/OpenSans/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "OpenSans-light";
+  src: url("../font/OpenSans/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: "OpenSans-medium";
+  src: url("../font/OpenSans/OpenSans-Medium.ttf");
+}
